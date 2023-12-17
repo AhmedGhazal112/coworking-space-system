@@ -48,5 +48,5 @@ public class Global {
         return null;
     }
 
-    public static int current_room_id;
+    public static int current_room_id, current_book_id;
 }
