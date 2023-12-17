@@ -4,8 +4,10 @@
  */
 package book;
 
+import GlobalPackage.Global;
 import java.awt.FlowLayout;
 import javax.swing.JPanel;
+import save_customer_data.Save_Customer_Data;
 
 /**
  *
@@ -266,16 +268,16 @@ public class Book extends javax.swing.JFrame {
         jPanel39.setLayout(jPanel39Layout);
         jPanel39Layout.setHorizontalGroup(
             jPanel39Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel39Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel39Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jButton22, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jPanel40, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap())
             .addComponent(jLabel41, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(jPanel39Layout.createSequentialGroup()
                 .addComponent(jLabel40)
                 .addGap(0, 0, Short.MAX_VALUE))
+            .addGroup(jPanel39Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel39Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jPanel40, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jButton22, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap())
         );
         jPanel39Layout.setVerticalGroup(
             jPanel39Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -286,9 +288,9 @@ public class Book extends javax.swing.JFrame {
                 .addComponent(jLabel40)
                 .addGap(12, 12, 12)
                 .addComponent(jLabel41)
-                .addGap(18, 18, 18)
+                .addGap(33, 33, 33)
                 .addComponent(jButton22, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(43, Short.MAX_VALUE))
         );
 
         jPanel41.setBackground(new java.awt.Color(153, 153, 153));
@@ -349,9 +351,9 @@ public class Book extends javax.swing.JFrame {
                 .addComponent(jLabel42)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jLabel43)
-                .addGap(18, 18, 18)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jButton23, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap())
         );
 
         jPanel43.setBackground(new java.awt.Color(153, 153, 153));
@@ -395,13 +397,13 @@ public class Book extends javax.swing.JFrame {
         jPanel43Layout.setHorizontalGroup(
             jPanel43Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jLabel44, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 238, Short.MAX_VALUE)
+            .addComponent(jLabel45, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(jPanel43Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel43Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jButton24, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jPanel44, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(jPanel44, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jButton24, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
-            .addComponent(jLabel45, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         jPanel43Layout.setVerticalGroup(
             jPanel43Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -412,7 +414,7 @@ public class Book extends javax.swing.JFrame {
                 .addComponent(jLabel44)
                 .addGap(12, 12, 12)
                 .addComponent(jLabel45)
-                .addGap(18, 18, 18)
+                .addGap(38, 38, 38)
                 .addComponent(jButton24, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
@@ -482,7 +484,7 @@ public class Book extends javax.swing.JFrame {
                 .addComponent(jLabel47)
                 .addGap(18, 18, 18)
                 .addComponent(jButton25, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(21, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
@@ -539,35 +541,53 @@ public class Book extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 545, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(217, Short.MAX_VALUE))
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 785, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-        // TODO add your handling code here:
+        Global.current_book_id = 1;
+        Save_Customer_Data tmp = new Save_Customer_Data();
+        this.dispose();
+        tmp.setVisible(true);
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton21jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton21jButton4ActionPerformed
-        // TODO add your handling code here:
+        Global.current_book_id = 2;
+        Save_Customer_Data tmp = new Save_Customer_Data();
+        this.dispose();
+        tmp.setVisible(true);
     }//GEN-LAST:event_jButton21jButton4ActionPerformed
 
     private void jButton22jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton22jButton4ActionPerformed
-        // TODO add your handling code here:
+        Global.current_book_id = 5;
+        Save_Customer_Data tmp = new Save_Customer_Data();
+        this.dispose();
+        tmp.setVisible(true);
     }//GEN-LAST:event_jButton22jButton4ActionPerformed
 
     private void jButton23jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton23jButton4ActionPerformed
-        // TODO add your handling code here:
+        Global.current_book_id = 3;
+        Save_Customer_Data tmp = new Save_Customer_Data();
+        this.dispose();
+        tmp.setVisible(true);
     }//GEN-LAST:event_jButton23jButton4ActionPerformed
 
     private void jButton24jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton24jButton4ActionPerformed
-        // TODO add your handling code here:
+        Global.current_book_id = 6;
+        Save_Customer_Data tmp = new Save_Customer_Data();
+        this.dispose();
+        tmp.setVisible(true);
     }//GEN-LAST:event_jButton24jButton4ActionPerformed
 
     private void jButton25jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton25jButton4ActionPerformed
-        // TODO add your handling code here:
+        Global.current_book_id = 4;
+        Save_Customer_Data tmp = new Save_Customer_Data();
+        this.dispose();
+        tmp.setVisible(true);
     }//GEN-LAST:event_jButton25jButton4ActionPerformed
 
     /**
