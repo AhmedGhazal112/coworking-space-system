@@ -1,20 +1,17 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package book;
 
 import GlobalPackage.Global;
-import java.awt.FlowLayout;
-import javax.swing.JPanel;
 import save_customer_data.Save_Customer_Data;
 
 /**
  *
- * @author lenovo
+ * @author Ahmed Ghazal
  */
 public class Book extends javax.swing.JFrame {
-
     /**
      * Creates new form Book
      */

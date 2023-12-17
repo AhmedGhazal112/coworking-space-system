@@ -59,6 +59,7 @@ public class Add_Chairs extends javax.swing.JFrame {
         jLabel11.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel11.setText("Chairs number :");
 
+        jButton1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jButton1.setText("Add");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -78,10 +79,10 @@ public class Add_Chairs extends javax.swing.JFrame {
                     .addComponent(chairs_num, javax.swing.GroupLayout.DEFAULT_SIZE, 98, Short.MAX_VALUE)
                     .addComponent(room_id))
                 .addGap(34, 34, 34))
-            .addGroup(jPanel7Layout.createSequentialGroup()
-                .addGap(114, 114, 114)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel7Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jButton1)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(122, 122, 122))
             .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(jPanel7Layout.createSequentialGroup()
                     .addGap(16, 16, 16)
@@ -99,7 +100,7 @@ public class Add_Chairs extends javax.swing.JFrame {
                     .addComponent(room_id, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addComponent(jButton1)
-                .addGap(0, 13, Short.MAX_VALUE))
+                .addGap(0, 9, Short.MAX_VALUE))
             .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(jPanel7Layout.createSequentialGroup()
                     .addGap(45, 45, 45)
@@ -167,7 +168,6 @@ public class Add_Chairs extends javax.swing.JFrame {
             ResultSet rs = Global.sql_read(query);
             current_room_chairs = rs.getInt("capacity");
             chairs += current_room_chairs;
-
         } catch (SQLException ex) {
             ex.printStackTrace();
         }
