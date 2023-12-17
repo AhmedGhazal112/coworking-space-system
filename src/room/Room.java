@@ -67,12 +67,10 @@ public class Room extends javax.swing.JFrame {
         jPanel1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
         jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(0, 0, 0));
         jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel4.setText("Price/h : 20 LE");
 
         jLabel7.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel7.setForeground(new java.awt.Color(0, 0, 0));
         jLabel7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel7.setText("Type : Shared Area");
 
@@ -113,8 +111,6 @@ public class Room extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jLabel4.getAccessibleContext().setAccessibleName("Price/h : 20 LE");
-
         jPanel4.setBackground(new java.awt.Color(0, 153, 153));
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
@@ -143,7 +139,6 @@ public class Room extends javax.swing.JFrame {
         jPanel3.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
         jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(0, 0, 0));
         jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel6.setText("Price/h : 20 LE");
 
@@ -158,7 +153,6 @@ public class Room extends javax.swing.JFrame {
         });
 
         jLabel9.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel9.setForeground(new java.awt.Color(0, 0, 0));
         jLabel9.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel9.setText("Type : Shared Area");
 
@@ -193,7 +187,6 @@ public class Room extends javax.swing.JFrame {
         jPanel2.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
         jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(0, 0, 0));
         jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel5.setText("Price/h : 20 LE");
 
@@ -208,7 +201,6 @@ public class Room extends javax.swing.JFrame {
         });
 
         jLabel28.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel28.setForeground(new java.awt.Color(0, 0, 0));
         jLabel28.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel28.setText("Type : Shared Area");
 
@@ -243,12 +235,10 @@ public class Room extends javax.swing.JFrame {
         jPanel5.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
         jLabel10.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel10.setForeground(new java.awt.Color(0, 0, 0));
         jLabel10.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel10.setText("Price/h : 20 LE");
 
         jLabel11.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel11.setForeground(new java.awt.Color(0, 0, 0));
         jLabel11.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel11.setText("Type : Quiet Room");
 
@@ -293,7 +283,6 @@ public class Room extends javax.swing.JFrame {
         jPanel11.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
         jLabel22.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel22.setForeground(new java.awt.Color(0, 0, 0));
         jLabel22.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel22.setText("Price/h : 20 LE");
 
@@ -308,7 +297,6 @@ public class Room extends javax.swing.JFrame {
         });
 
         jLabel23.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel23.setForeground(new java.awt.Color(0, 0, 0));
         jLabel23.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel23.setText("Type : Quiet Room");
 
@@ -343,7 +331,6 @@ public class Room extends javax.swing.JFrame {
         jPanel12.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
         jLabel24.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel24.setForeground(new java.awt.Color(0, 0, 0));
         jLabel24.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel24.setText("Price/h : 20 LE");
 
@@ -358,7 +345,6 @@ public class Room extends javax.swing.JFrame {
         });
 
         jLabel25.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel25.setForeground(new java.awt.Color(0, 0, 0));
         jLabel25.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel25.setText("Type : Meetings Room");
 
@@ -393,7 +379,6 @@ public class Room extends javax.swing.JFrame {
         jPanel13.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
         jLabel26.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel26.setForeground(new java.awt.Color(0, 0, 0));
         jLabel26.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel26.setText("Price/h : 20 LE");
 
@@ -408,7 +393,6 @@ public class Room extends javax.swing.JFrame {
         });
 
         jLabel29.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel29.setForeground(new java.awt.Color(0, 0, 0));
         jLabel29.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel29.setText("Type : Meetings Room");
 
@@ -572,9 +556,6 @@ public class Room extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton10;
-    private javax.swing.JButton jButton11;
-    private javax.swing.JButton jButton12;
     private javax.swing.JButton jButton13;
     private javax.swing.JButton jButton14;
     private javax.swing.JButton jButton15;
@@ -582,21 +563,9 @@ public class Room extends javax.swing.JFrame {
     private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton6;
     private javax.swing.JButton jButton7;
-    private javax.swing.JButton jButton8;
-    private javax.swing.JButton jButton9;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
-    private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel13;
-    private javax.swing.JLabel jLabel14;
-    private javax.swing.JLabel jLabel15;
-    private javax.swing.JLabel jLabel16;
-    private javax.swing.JLabel jLabel17;
-    private javax.swing.JLabel jLabel18;
-    private javax.swing.JLabel jLabel19;
-    private javax.swing.JLabel jLabel20;
-    private javax.swing.JLabel jLabel21;
     private javax.swing.JLabel jLabel22;
     private javax.swing.JLabel jLabel23;
     private javax.swing.JLabel jLabel24;
@@ -610,7 +579,6 @@ public class Room extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JPanel jPanel10;
     private javax.swing.JPanel jPanel11;
     private javax.swing.JPanel jPanel12;
     private javax.swing.JPanel jPanel13;
@@ -618,9 +586,5 @@ public class Room extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
-    private javax.swing.JPanel jPanel6;
-    private javax.swing.JPanel jPanel7;
-    private javax.swing.JPanel jPanel8;
-    private javax.swing.JPanel jPanel9;
     // End of variables declaration//GEN-END:variables
 }

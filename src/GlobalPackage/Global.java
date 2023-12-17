@@ -10,16 +10,23 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.UUID;
 
 /**
  *
  * @author Mohab
  */
 public class Global {
+    
 
+    public static String generateUniqueId() {
+        UUID uuid = UUID.randomUUID();
+        return uuid.toString();
+    }
+    
     public static void sql_write(String query) {
         try {
-            String connectionString = "jdbc:sqlserver://DESKTOP-0BJ6OR8;Database=coworking_space;IntegratedSecurity=true;encrypt=true;trustServerCertificate=true";
+            String connectionString = "jdbc:sqlserver://DESKTOP-GMJ1OFI;Database=coworking_space;IntegratedSecurity=true;encrypt=true;trustServerCertificate=true";
             try (Connection connection = DriverManager.getConnection(connectionString)) {
                 PreparedStatement st = connection.prepareStatement(query);
                 st.executeUpdate();
@@ -34,7 +41,7 @@ public class Global {
     }
 
     public static ResultSet sql_read(String query) {
-        String connectionString = "jdbc:sqlserver://DESKTOP-0BJ6OR8;Database=coworking_space;IntegratedSecurity=true;encrypt=true;trustServerCertificate=true";
+        String connectionString = "jdbc:sqlserver://DESKTOP-GMJ1OFI;Database=coworking_space;IntegratedSecurity=true;encrypt=true;trustServerCertificate=true";
 
         try {
             Connection connection = DriverManager.getConnection(connectionString);
